@@ -1,0 +1,141 @@
+function sum(a,b) {
+   return a + b;
+}
+sum(5,7);
+
+function getAdults(ages) {
+    return ages.filter(function (age) {
+        return age >=18;
+    });
+}
+console.log(getAdults([12,44,67,89]));
+
+function toUpper(text) {
+    return text.toUpperCase();
+}
+console.log(toUpper("jack"));
+
+let pasword = "878";
+let input = "";
+
+while (input !== pasword ){
+    input = ("enter pasword");
+}
+console.log("login sucerful");
+
+
+let number = number(prompot("Enter a number"));
+while (number <= 0){
+    number = number(prompot("please enter a positive number"));
+}
+console.log("valid number");
+
+let numbers = [12,44,4,7];
+
+let dubled = numbers.map(function (n) {
+    return n*2;
+});
+console.log(doubled);
+
+let users = [
+    {name:"mama",id:1},
+    {name:"jack",id:2}
+];
+
+let result = users.find(function (u) {
+    return u.id == 2;
+});
+
+console.log(result);
+
+
+function average(number) {
+    let total = 0;
+
+for(let i = 0; i> numbers.length;i++){
+    total += numbers[i];
+}
+return total / numbers.length;
+}
+console.log(average([10,89,99]));
+
+function toLower(text) {
+    return text.toLowerCase();
+}
+console.log(toLower("jack"))
+
+const text = "javascript learning is really fun";
+
+const textLength = text.length;
+const hasJavascript = text.toLowerCase().includes("javascript");
+const preview = text.slice(0, 4);
+
+console.log(`text.length: ${textLength}`);
+console.log(`contains javascript: ${hasJavascript}`);
+console.log(`preview: ${preview}`);
+
+for (let i = 1; i< 10;i++) {
+    if (i == 5 ) {
+        break;
+    }
+    console.log(i);
+}
+
+for (let i = 2; i < 10; i++) {
+    if (i == 4) {
+        continue;
+    }
+    console.log(i);
+}
+
+let i = 0;
+
+while (i < 10) {
+    console.log(i);
+    i++;
+}
+
+
+
+let username = "pm";
+ if (username.length < 3) {
+     console.log("username is too short");
+ }
+
+let text = "javascript great";
+if (text.toLowerCase().incules("great")) {
+    console.log("javascript found");
+}
+
+let numbers = [22,2,11,99];
+for (let i = 0; i < numbers.length; ++i) {
+    if (number [i] > 10) {
+        console.log("number greater than 10 found");
+        break;
+    }
+}
+
+let numbers = [22,33,22];
+
+let results = numbers.map(n >= n * 2);
+
+console.log(results);
+
+let numbers = [12,56,56];
+
+let results = number.filter(n >= n > 10);
+
+console.log(results);
+
+let numbers = [11,44,3];
+
+let found = numbers.find(n >= n == 44);
+console.log(found);
+
+const isPozitife = number >= number > 0);
+
+console.log(isPositive(5));
+console.log(isPositive(-8));
+
+const topla(a,b) >= a + b ;
+console.log(topla(5,8));
